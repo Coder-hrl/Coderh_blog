@@ -1,17 +1,18 @@
 ---
 home: true
 heroText: 欢迎来到Coderh个人博客
-tagline: The greatest freedom comes from knowing your essence
+tagline: Think more, see more, do more.
 # heroImage: /hero.png
-# heroImageStyle: {
-#   maxWidth: '600px',
-#   width: '100%',
-#   display: block,
-#   margin: '9rem auto 2rem',
-#   background: '#fff',
-#   borderRadius: '1rem',
-# }
-bgImageStyle: { height: '400px' }
+# heroImageStyle:
+#   {
+#     maxWidth: '600px',
+#     width: '100%',
+#     display: block,
+#     margin: '9rem auto 2rem',
+#     background: '#fff',
+#     borderRadius: '1rem',
+#   }
+bgImageStyle: { height: '500px' }
 isShowTitleInHome: false
 actionText: Guide
 actionLink: /views/other/guide

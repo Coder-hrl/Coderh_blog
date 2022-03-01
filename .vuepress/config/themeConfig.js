@@ -17,6 +17,10 @@ module.exports = {
       link: '/',
     },
     {
+      text: '项目记录',
+      link: '/',
+    },
+    {
       text: '读书笔记',
       link: '/',
     },
