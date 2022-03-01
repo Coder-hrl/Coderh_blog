@@ -1,7 +1,8 @@
 module.exports = {
-  title: 'Coderh_blog',
-  description: 'personal_blog',
-  dest: 'public',
+  title: 'Coderh',
+  description: 'Coderh个人博客 | 学习记录',
+  dest: './dist',
+  port: 8081,
   head: [
     [
       'link',
@@ -19,79 +20,9 @@ module.exports = {
     ],
   ],
   theme: 'reco',
-  themeConfig: {
-    nav: [
-      {
-        text: 'Home',
-        link: '/',
-        icon: 'reco-home',
-      },
-      {
-        text: 'TimeLine',
-        link: '/timeline/',
-        icon: 'reco-date',
-      },
-      {
-        text: 'Docs',
-        icon: 'reco-message',
-        items: [
-          {
-            text: 'vuepress-reco',
-            link: '/docs/theme-reco/',
-          },
-        ],
-      },
-      {
-        text: 'Contact',
-        icon: 'reco-message',
-        items: [
-          {
-            text: 'GitHub',
-            link: 'https://github.com/recoluan',
-            icon: 'reco-github',
-          },
-        ],
-      },
-    ],
-    sidebar: {
-      '/docs/theme-reco/': ['', 'theme', 'plugin', 'api'],
-    },
-    type: 'blog',
-    blogConfig: {
-      category: {
-        location: 2,
-        text: 'Category',
-      },
-      tag: {
-        location: 3,
-        text: 'Tag',
-      },
-    },
-    friendLink: [
-      {
-        title: '午后南杂',
-        desc: 'Enjoy when you can, and endure when you must.',
-        email: '1156743527@qq.com',
-        link: 'https://www.recoluan.com',
-      },
-      {
-        title: 'vuepress-theme-reco',
-        desc: 'A simple and beautiful vuepress Blog & Doc theme.',
-        avatar:
-          'https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png',
-        link: 'https://vuepress-theme-reco.recoluan.com',
-      },
-    ],
-    logo: '/logo.png',
-    search: true,
-    searchMaxSuggestions: 10,
-    lastUpdated: 'Last Updated',
-    author: 'Coderh',
-    authorAvatar: '/avatar.png',
-    record: 'xxxx',
-    startYear: '2017',
-  },
+  themeConfig: require('./config/themeConfig.js'),
   markdown: {
     lineNumbers: true,
   },
+  plugins: require('./config/plugin.js'),
 }

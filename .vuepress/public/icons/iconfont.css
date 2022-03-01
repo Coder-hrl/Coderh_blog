@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1646105746569') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-guanyuwo:before {
+  content: "\f0142";
+}
+
+.icon-1:before {
+  content: "\e624";
+}
+
+.icon-js:before {
+  content: "\ec68";
+}
+
+.icon-Vue:before {
+  content: "\e799";
+}
+
+.icon-css:before {
+  content: "\e61e";
+}
+
+.icon-leetcode:before {
+  content: "\ebf2";
+}
+
+.icon-juejin:before {
+  content: "\e60b";
+}
+
+.icon-node:before {
+  content: "\ec12";
+}
+
