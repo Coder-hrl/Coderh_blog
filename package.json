@@ -1,16 +1,14 @@
 {
-  "name": "coderh_blog",
+  "name": "coder_blog",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "author": "reco_luan",
   "scripts": {
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "serve": "vuepress dev . --open --host \"localhost\"",
+    "build": "vuepress build ."
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
-    "vuepress": "^1.9.7"
-  }
+    "vuepress": "1.8.2",
+    "vuepress-theme-reco": "1.6.10"
+  },
+  "description": "personal_blog"
 }
