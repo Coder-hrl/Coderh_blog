@@ -1,16 +1,16 @@
 module.exports = {
-  title: 'Coderh',
+  title: 'Coderh学习笔记',
   description: 'Coderh个人博客 | 学习记录',
   dest: './dist',
   port: 8081,
   head: [
-    [
-      'link',
-      {
-        rel: 'icon',
-        href: '/favicon.ico',
-      },
-    ],
+    // [
+    //   'link',
+    //   {
+    //     rel: 'icon',
+    //     href: '/favicon.ico',
+    //   },
+    // ],
     [
       'meta',
       {
